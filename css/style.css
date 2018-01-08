@@ -21,7 +21,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: red;
     text-align: center;
 
     
@@ -30,10 +29,10 @@ body {
 div.square{
     position: relative;
     text-align: center;
-    width: 20%;
-    height:100%;
-    float:left;
-    margin: 2%;
+    width: 19%;
+    height: 85%;
+    display: inline-block;
+    margin: 1.5%;
 }
 
 .box{
@@ -56,4 +55,22 @@ div#box-1{
 }
 #box-4{
   background-image: url(img/product-4.jpg);
+}
+
+div.mask{
+    background-color: #ff6f00;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    text-align: center;
+}
+
+div.mask:hover {
+    opacity: 0.5;
+}
+
+.mask>i{
+    color: white;
+    top: 50px;
+    
 }
