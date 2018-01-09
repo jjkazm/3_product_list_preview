@@ -1,0 +1,33 @@
+  
+@media all and  (max-width: 991px){
+div#all-squares {
+    width: 100%;
+    height: 100%;
+}
+    
+    div.square {
+    position: relative;
+    text-align: center;
+    width: 45%;
+    height:45%;
+    display: inline-block;
+    margin: 1.5%;
+}
+}
+
+@media all and  (max-width: 479px){
+
+  div#all-squares {
+    width: 100%;
+    height: 100%;
+}
+     div.square {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    display: inline-block;
+    margin: 1.5%;
+} 
+     
+} 
